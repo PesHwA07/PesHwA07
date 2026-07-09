@@ -4,7 +4,7 @@
 
 ![](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=6366F1&center=true&vCenter=true&width=600&lines=🤖+Building+Agentic+RAG+Systems;🧠+LLM+Fine-Tuning+%26+Multi-Agent+Orchestration;⚙️+From+Notebook+to+Production)
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/dhananjay-naiknaware)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/dhananjay-naiknaware-a273982b8/)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/PesHwA07)
 [![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your-email@example.com)
 
@@ -37,45 +37,57 @@ evaluation, guardrails, and deployment.
 
 ---
 
-## 🚀 Featured Projects
+## 🔭 Current Focus Areas
 
-### 🔍 Guarded Self-Critiquing RAG System
-LangGraph-based RAG with a critic agent that checks groundedness before answering,
-reformulates the query on failure, and falls back gracefully instead of hallucinating.
-Wrapped in input/output guardrails (PII, injection, toxicity) and gated by a GitHub
-Actions eval pipeline (hallucination rate, latency, cost) against a 100+ question golden
-dataset. Tracked in Weights & Biases, deployed via Docker + FastAPI.
+<table>
+<tr>
+<td width="50%" valign="top">
 
-### 🧠 IDEAL — AI-Assisted Development Environment
-A browser-based IDE with an integrated fine-tuned LLM for context-aware code generation
-and debugging. Owned the fine-tuning pipeline: QLoRA on CodeLlama-7B (4-bit NF4
-quantization, LoRA rank 64) with checkpointed training across session-limited Colab runs.
+### 🧠 LLM Applications
+- Prompt design that fights generic output — explicit anti-genericism constraints,
+  proven in a deployed marketing-report generator
+- Multi-provider model routing (Groq ⇄ Ollama) behind one interface
+- QLoRA fine-tuning under real memory/session constraints (CodeLlama-7B, 4-bit NF4)
+- Cost-aware design: caching and tiered eval to stay within free-tier rate limits
 
-### 🎮 CS:GO Match Outcome Analysis
-Compared Random Forest and Logistic Regression classifiers on match outcome prediction,
-evaluated via accuracy, confusion matrices, and feature importance. Built a custom
-Elo-style rating system from scratch in JAX with a JIT-compiled log-loss model.
+</td>
+<td width="50%" valign="top">
 
-### 🌿 Ayurvedic Care — Dosha/Vikriti Classification
-Automated pipeline ingesting patient survey data from Google Sheets, applying a
-weighted-keyword scoring system with margin-based confidence bands — built and scaled
-to 15+ live clinics during my internship at Netleap IT Training and Solutions.
+### 🔗 RAG & Knowledge Systems
+- Groundedness critique — a second model checks if the answer is actually supported
+  by retrieved chunks, before it reaches the user
+- Dense retrieval (ChromaDB, Qdrant) *and* sparse/vector-less retrieval (BM25) —
+  chosen deliberately per use case, not defaulted to embeddings
+- Query reformulation on retrieval failure, instead of silent hallucination
 
-### 📊 Strategic Intelligence AI — Marketing Research & Strategy Generator
-A deployed Flask app that takes a brand intake form, grounds itself in live web research
-(competitor complaints, market trends), classifies the business into a financial-benchmark
-archetype, and generates two LLM-written deliverables — a Market Analysis Dossier and a
-Strategic Execution Playbook — as downloadable PDFs. Deployed on Render.
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 
-### 🚧 In Progress
-- **Multi-Domain Data & ML Platform** — Airflow + PostgreSQL + FastAPI handling batch ETL,
-  time-series forecasting (Prophet), and real-time fraud classification under one
-  orchestrated system
-- **Agentic ML Paper Research Assistant** — vector-less (BM25) retrieval over ML papers
-  using LangChain's Deep Agents, with an LLM gateway (LiteLLM), caching, and multimodal
-  figure understanding
-- **CrewAI Ticket Triage** — a role-based multi-agent system for support ticket
-  classification, response drafting, and escalation
+### 🤖 AI Agents & Orchestration
+- Multi-agent systems across three different mental models: LangGraph (explicit state
+  graphs), CrewAI (role-based crews), Deep Agents (planning + sub-agents)
+- Tool-using agents with real fallback behavior — an agent that says "I don't know"
+  instead of guessing
+- Comparing frameworks firsthand, not just reading about them
+
+</td>
+<td width="50%" valign="top">
+
+### ⚙️ Evaluation & Production Engineering
+- Golden-dataset evaluation (100+ Q&A pairs) with hallucination-rate, latency, and
+  cost tracked per commit
+- CI/CD gating — GitHub Actions blocks a merge if quality regresses
+- Experiment tracking (Weights & Biases), containerized deployment (Docker + FastAPI)
+
+</td>
+</tr>
+</table>
+
+### 📁 Repos
+[`guarded-rag-system`](#) · [`marketing-system`](#) · [`ideal-ai-ide`](#) ·
+[`codellama-qlora-finetune`](#) — links live once each repo is pushed public
 
 ---
 
@@ -167,6 +179,6 @@ I'm always happy to talk RAG architecture, agent framework trade-offs, or fine-t
 reach out if you're working on something similar or want to collaborate.
 
 - 📧 Email: dnaiknaware.work@gmail.com
-- 💼 LinkedIn: [Connect on LinkedIn](https://linkedin.com/in/dhananjay-naiknaware)
+- 💼 LinkedIn: [Connect on LinkedIn](https://www.linkedin.com/in/dhananjay-naiknaware-a273982b8/)
 - 🐙 GitHub: [Follow on GitHub](https://github.com/PesHwA07)
 
