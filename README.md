@@ -1,6 +1,6 @@
 <div align="center">
 
-# ✨ DHANANJAY NAIKNAWARE — AI/ML Engineer & LLM Systems Builder ✨
+# ✨ DHANANJAY NAIKNAWARE — AI/ML Engineer, Data Scientist & LLM Systems Builder ✨
 
 ![](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=6366F1&center=true&vCenter=true&width=600&lines=🤖+Building+Agentic+RAG+Systems;🧠+LLM+Fine-Tuning+%26+Multi-Agent+Orchestration;⚙️+From+Notebook+to+Production)
 
@@ -14,7 +14,7 @@
 
 ## 🎯 About Me
 
-I'm a Computer Science (B.Tech, June 2026) building systems that go
+I'm a Computer Science undergrad (B.Tech, expected June 2026) building systems that go
 beyond "train a model in a notebook" — self-critiquing RAG pipelines, multi-agent
 orchestration, and LLM fine-tuning, with a growing focus on the production side:
 evaluation, guardrails, and deployment.
@@ -56,11 +56,26 @@ Compared Random Forest and Logistic Regression classifiers on match outcome pred
 evaluated via accuracy, confusion matrices, and feature importance. Built a custom
 Elo-style rating system from scratch in JAX with a JIT-compiled log-loss model.
 
-### 🏗️ Multi-Domain Data & ML Platform
-Built a unified data platform (Airflow, PostgreSQL, FastAPI) handling batch ETL (Spotify), 
-time-series forecasting (energy demand via Prophet), and real-time fraud classification 
-(imbalanced-class handling via SMOTE). Models and pipelines are orchestrated via Airflow, 
-served through a shared API, and monitored via a Streamlit dashboard.
+### 🌿 Ayurvedic Care — Dosha/Vikriti Classification
+Automated pipeline ingesting patient survey data from Google Sheets, applying a
+weighted-keyword scoring system with margin-based confidence bands — built and scaled
+to 15+ live clinics during my internship at Netleap IT Training and Solutions.
+
+### 📊 Strategic Intelligence AI — Marketing Research & Strategy Generator
+A deployed Flask app that takes a brand intake form, grounds itself in live web research
+(competitor complaints, market trends), classifies the business into a financial-benchmark
+archetype, and generates two LLM-written deliverables — a Market Analysis Dossier and a
+Strategic Execution Playbook — as downloadable PDFs. Deployed on Render.
+
+### 🚧 In Progress
+- **Multi-Domain Data & ML Platform** — Airflow + PostgreSQL + FastAPI handling batch ETL,
+  time-series forecasting (Prophet), and real-time fraud classification under one
+  orchestrated system
+- **Agentic ML Paper Research Assistant** — vector-less (BM25) retrieval over ML papers
+  using LangChain's Deep Agents, with an LLM gateway (LiteLLM), caching, and multimodal
+  figure understanding
+- **CrewAI Ticket Triage** — a role-based multi-agent system for support ticket
+  classification, response drafting, and escalation
 
 ---
 
@@ -110,16 +125,33 @@ served through a shared API, and monitored via a Streamlit dashboard.
 
 ---
 
-## 📚 Focus Areas
+## 🎓 Learning & Expertise
 
-- **RAG Systems**: retrieval quality, groundedness checking, vector-based and vector-less
-  (BM25) retrieval, reranking
-- **Multi-Agent Systems**: LangGraph state machines, Deep Agents (planning + sub-agents),
-  CrewAI role-based crews
-- **LLM Fine-Tuning**: QLoRA/LoRA, quantization, checkpointed training under memory
-  constraints
-- **LLMOps**: evaluation pipelines, hallucination/faithfulness metrics, cost and latency
-  tracking, CI/CD gating on model quality
+### 🧩 Skills, Backed by Receipts
+*(no buzzword bingo — every skill below is tied to something you can actually click into)*
+
+| Skill | Proven in |
+|---|---|
+| **RAG Architecture & Groundedness** | Guarded Self-Critiquing RAG System — critic agent + reformulate/fallback loop |
+| **Multi-Agent Orchestration** | LangGraph (stateful graphs) · Deep Agents (planning) · CrewAI (role-based crews) |
+| **LLM Fine-Tuning** | QLoRA on CodeLlama-7B — 4-bit NF4, LoRA rank 64, checkpointed across Colab sessions |
+| **Eval & LLMOps** | 100+ question golden dataset, hallucination-rate CI gating, W&B experiment tracking |
+| **Vector & Vector-less Retrieval** | ChromaDB/Qdrant (dense) alongside BM25 (sparse) — chosen deliberately, not by default |
+| **Applied ML Beyond LLMs** | Random Forest/Logistic Regression evaluation, custom Elo rating system built from scratch in JAX |
+| **Real-World Deployment** | Docker + FastAPI, and a live, deployed marketing-intelligence tool doing real web-grounded research |
+
+### 🔭 Where I'm Headed Next
+- Closing the gap between "works in a demo" and "survives production" — Kubernetes,
+  cloud-hosted deployments, drift monitoring
+- MCP (Model Context Protocol) as the emerging standard for how agents reach tools
+- Reranking and hybrid retrieval — going past "retrieval exists" to "retrieval is actually good"
+- Orchestrated, scheduled data pipelines (Apache Airflow) as the backbone under any ML system
+
+### 🌍 Why I Build
+Most "AI projects" stop at a notebook that works once. I'm more interested in the harder,
+less glamorous half: does it fail gracefully, can you tell when it's wrong, and will it
+still work after the tenth deploy? That's the thread running through everything above —
+building things that are honest about their own limitations, not just impressive in a demo.
 
 ---
 
@@ -135,6 +167,6 @@ I'm always happy to talk RAG architecture, agent framework trade-offs, or fine-t
 reach out if you're working on something similar or want to collaborate.
 
 - 📧 Email: dnaiknaware.work@gmail.com
-- 💼 LinkedIn: [Connect on LinkedIn](https://www.linkedin.com/in/dhananjay-naiknaware-a273982b8/)
+- 💼 LinkedIn: [Connect on LinkedIn](https://linkedin.com/in/dhananjay-naiknaware)
 - 🐙 GitHub: [Follow on GitHub](https://github.com/PesHwA07)
 
