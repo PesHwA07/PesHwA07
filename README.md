@@ -14,7 +14,7 @@
 
 ## 🎯 About Me
 
-I'm a Computer Science undergrad (B.Tech, expected June 2026) building systems that go
+I'm a Computer Science (B.Tech, June 2026) building systems that go
 beyond "train a model in a notebook" — self-critiquing RAG pipelines, multi-agent
 orchestration, and LLM fine-tuning, with a growing focus on the production side:
 evaluation, guardrails, and deployment.
@@ -56,10 +56,11 @@ Compared Random Forest and Logistic Regression classifiers on match outcome pred
 evaluated via accuracy, confusion matrices, and feature importance. Built a custom
 Elo-style rating system from scratch in JAX with a JIT-compiled log-loss model.
 
-### 🌿 Ayurvedic Care — Dosha/Vikriti Classification
-Automated pipeline ingesting patient survey data from Google Sheets, applying a
-weighted-keyword scoring system with margin-based confidence bands — built and scaled
-to 15+ live clinics during my internship at Netleap IT Training and Solutions.
+### 🏗️ Multi-Domain Data & ML Platform
+Built a unified data platform (Airflow, PostgreSQL, FastAPI) handling batch ETL (Spotify), 
+time-series forecasting (energy demand via Prophet), and real-time fraud classification 
+(imbalanced-class handling via SMOTE). Models and pipelines are orchestrated via Airflow, 
+served through a shared API, and monitored via a Streamlit dashboard.
 
 ---
 
@@ -133,7 +134,7 @@ to 15+ live clinics during my internship at Netleap IT Training and Solutions.
 I'm always happy to talk RAG architecture, agent framework trade-offs, or fine-tuning —
 reach out if you're working on something similar or want to collaborate.
 
-- 📧 Email: your-email@example.com
-- 💼 LinkedIn: [Connect on LinkedIn](https://linkedin.com/in/dhananjay-naiknaware)
+- 📧 Email: dnaiknaware.work@gmail.com
+- 💼 LinkedIn: [Connect on LinkedIn](https://www.linkedin.com/in/dhananjay-naiknaware-a273982b8/)
 - 🐙 GitHub: [Follow on GitHub](https://github.com/PesHwA07)
 
