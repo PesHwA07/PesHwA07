@@ -85,9 +85,6 @@ evaluation, guardrails, and deployment.
 </tr>
 </table>
 
-### 📁 Repos
-[`guarded-rag-system`](#) · [`marketing-system`](#) · [`ideal-ai-ide`](#) ·
-[`codellama-qlora-finetune`](#) — links live once each repo is pushed public
 
 ---
 
